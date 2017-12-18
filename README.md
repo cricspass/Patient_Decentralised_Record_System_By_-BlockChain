@@ -13,3 +13,16 @@ To develop a BlockChain solution for Patient Decentralised Record System for Hos
 
 # IDEA/SOLUTION
 > "for the above mentioned problem we are providing solution as follow: 1) For maintaining privacy and confidentiality we have come up with the solution of Blockchain and Keys (private and public key). Public key will be shared with the hospitals to search the patients record and get the data and private key will be used to unlock the highly confidential patients medical data. thus by this confidentiality and integrity of the records will be maintained as hospitals have no role to access that record unless patients give it concern to view. 2) when any new patient register at the hospital the system will make its entry in the public blockchain and make a block of that person and it will generate 2 keys (public and private). 3) Public key will be shared with the hospitals and private key is used to encrypt the Medical information. 4) When a patients arrive in any hospital the doctor can search for his records in the blockchain with the help of public key and all the block corresponds to the patients will be displayed i.e. the whole medical history will be displayed. 5) This platform will be available 24x7. 6) Our solution is scalable as we can expand the blockchain and actual data will be stored hospital wise at there respective centers but that transaction of data will be done through blockchain as a service."
+
+# TECH STACK
+> # FOR BLOCKCHAIN :
+      Node Js : For Implementing Block Chain
+      Apache Server : For Hosting 
+
+> # For Hospital Side Sytem :
+      CodeIgnitor : For making the Hospital Side Backend
+      HTML/CSS/BOOTSTRAP : For making the UI for Patient Record 
+      MYSQL/PhpMyAdmin : For maintaining the Hospital Record 
+      
+> Get Request for sending the data 
+> Rsa for encryption (in hospital side)
