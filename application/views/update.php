@@ -28,6 +28,17 @@
 				<?php echo form_error('description', '<div class="text-danger">','</div>') ;?>
 		      </div>
 		    </div>
+
+		     <div class="form-group">
+		      <label for="exampleTextarea">Hospital</label>
+		      <div class="col-md-5">
+		      <?php  echo form_textarea(['name'=>'hospital' , 'placeholder'=>'hospital', 'class'=>'form-control' ,
+		      'value'=>set_value('description',$post->hospital)  ]  ) ;?>
+		  		</div>
+		      <div class="col-md-5">
+				<?php echo form_error('hospital', '<div class="text-danger">','</div>') ;?>
+		      </div>
+		    </div>
 		    
 
 		    <?php echo form_submit(['name'=>'submit' , 'value'=>'Update' , 'class'=>'btn btn-primary']); ?>

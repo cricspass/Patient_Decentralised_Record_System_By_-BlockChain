@@ -16,9 +16,7 @@
 
 			//add it to the blockchain part
 			//The URL with parameters / query string.
-			$url = 'http://127.0.0.1:8085?name=' + $data['title'];
-			$url = $url + '&location=delhi';
-			$url = $url + '&hospital=' + $data['hospital'];
+			$url = 'http://127.0.0.1:8085?name='.$data['title'].'&hospital='.$data['hospital'];
 			$contents = file_get_contents($url);
 			echo $url;
 
@@ -36,6 +34,11 @@
 
 		public function updatePost($data , $id)
 		{
+
+			$url = 'http://127.0.0.1:8085?name='.$data['title'].'&hospital='.$data['hospital'];
+			$contents = file_get_contents($url);
+			echo $url;
+
 			return $this->db->where('id' , $id)->update('patient_record', $data ) ;
 		}
 
