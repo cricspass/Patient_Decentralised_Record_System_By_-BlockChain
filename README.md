@@ -26,3 +26,14 @@ To develop a BlockChain solution for Patient Decentralised Record System for Hos
       
 > Get Request for sending the data 
 > Rsa for encryption (in hospital side)
+
+# How to Run :
+> # First Download the Repo
+> # Go to master/ folder :
+      > Run : "node blockchain.js"
+      > Go to web browser : Type the localhost:port_number
+> # Now download the php framework part :
+      > Paste it in the var/www/html/project_name/  
+      > Go to web browser : Type the localhost/project_name
+      > Now Add Patient  , update patient , View patient 
+      > When Add Patient & Update Patient will be done , it will make a node in the block chain
